@@ -72,12 +72,12 @@ open class CollectionSectionAdapter: NSObject, CollectionAdapterConvertible {
     
     fileprivate func configureData() -> [DataType] {
         /// 先建立row
-        let row1 = DemoRowObject(title: "搜尋", backgroundColor: #colorLiteral(red: 1, green: 0.5781051517, blue: 0, alpha: 1), titleTextColor: #colorLiteral(red: 0.9999960065, green: 1, blue: 1, alpha: 1))
-        let row2 = DemoRowObject(title: "地圖找工作", backgroundColor: #colorLiteral(red: 0.1921568627, green: 0.6705882353, blue: 0.7294117647, alpha: 1), titleTextColor: #colorLiteral(red: 0.9999960065, green: 1, blue: 1, alpha: 1))
-        let row3 = DemoRowObject(title: "我的收藏", backgroundColor: #colorLiteral(red: 0.3058218956, green: 0.8185168505, blue: 0.6672741771, alpha: 1), titleTextColor: #colorLiteral(red: 0.9999960065, green: 1, blue: 1, alpha: 1))
-        let row4 = DemoRowObject(title: "我的設定", backgroundColor: #colorLiteral(red: 0.971321404, green: 0.3788147569, blue: 0.4026813209, alpha: 1), titleTextColor: #colorLiteral(red: 0.9999960065, green: 1, blue: 1, alpha: 1))
-        let row5 = DemoRowObject(title: "我的配對", backgroundColor: #colorLiteral(red: 0.1254902035, green: 0.5176470876, blue: 0.7137255073, alpha: 1), titleTextColor: #colorLiteral(red: 0.9999960065, green: 1, blue: 1, alpha: 1))
-        let row6 = DemoRowObject(title: "我的履歷", backgroundColor: #colorLiteral(red: 0.971321404, green: 0.3788147569, blue: 0.4026813209, alpha: 1), titleTextColor: #colorLiteral(red: 0.9999960065, green: 1, blue: 1, alpha: 1))
+        let row1 = DemoRowObject(title: "Item", backgroundColor: #colorLiteral(red: 1, green: 0.5781051517, blue: 0, alpha: 1), titleTextColor: #colorLiteral(red: 0.9999960065, green: 1, blue: 1, alpha: 1))
+        let row2 = DemoRowObject(title: "Item1", backgroundColor: #colorLiteral(red: 0.1921568627, green: 0.6705882353, blue: 0.7294117647, alpha: 1), titleTextColor: #colorLiteral(red: 0.9999960065, green: 1, blue: 1, alpha: 1))
+        let row3 = DemoRowObject(title: "Item2", backgroundColor: #colorLiteral(red: 0.3058218956, green: 0.8185168505, blue: 0.6672741771, alpha: 1), titleTextColor: #colorLiteral(red: 0.9999960065, green: 1, blue: 1, alpha: 1))
+        let row4 = DemoRowObject(title: "Item3", backgroundColor: #colorLiteral(red: 0.971321404, green: 0.3788147569, blue: 0.4026813209, alpha: 1), titleTextColor: #colorLiteral(red: 0.9999960065, green: 1, blue: 1, alpha: 1))
+        let row5 = DemoRowObject(title: "Item4", backgroundColor: #colorLiteral(red: 0.1254902035, green: 0.5176470876, blue: 0.7137255073, alpha: 1), titleTextColor: #colorLiteral(red: 0.9999960065, green: 1, blue: 1, alpha: 1))
+        let row6 = DemoRowObject(title: "Item5", backgroundColor: #colorLiteral(red: 0.971321404, green: 0.3788147569, blue: 0.4026813209, alpha: 1), titleTextColor: #colorLiteral(red: 0.9999960065, green: 1, blue: 1, alpha: 1))
         /// 告訴section model, 這次需要什麼row
         /**
          EasyTableSection<這次需要什麼row>.init(rows:[這次row1, 這次row2....])
